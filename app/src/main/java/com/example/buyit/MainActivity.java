@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void searchItem(View view) {
         Intent intent = new Intent (getApplicationContext(), ItemView.class);
+        Bundle b = new Bundle();
+
+        EditText edit = (EditText)findViewById(R.id.itemValue);
+
+        b.putString("key", edit.getText().toString());
+
+        intent.putExtras(b);
+
         startActivity(intent);
     }
 
