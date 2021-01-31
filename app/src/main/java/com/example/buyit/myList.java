@@ -11,4 +11,8 @@ public class myList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_list);
     }
+
+
+
+
 }

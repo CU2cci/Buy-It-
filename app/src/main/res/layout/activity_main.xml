@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="150dp"
+        android:layout_width="210dp"
         android:layout_height="55dp"
         android:layout_marginStart="128dp"
         android:layout_marginLeft="128dp"
@@ -22,52 +22,34 @@
         app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.993"
         app:strokeColor="@color/black"
-        app:strokeWidth="2dp" /><![CDATA[
-        />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ]]>
+        app:strokeWidth="2dp" />
 
     <EditText
         android:id="@+id/itemValue"
-        android:layout_width="207dp"
-        android:layout_height="75dp"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
         android:layout_marginStart="130dp"
         android:layout_marginLeft="130dp"
         android:layout_marginEnd="131dp"
         android:layout_marginRight="131dp"
+        android:background="@drawable/edit_text_border"
         android:gravity="center_horizontal|center_vertical"
         android:hint="Enter item name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553"
-        app:strokeColor="@color/black"
-        app:strokeWidth="2dp" />
-        />
+        app:layout_constraintVertical_bias="0.461" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="150dp"
+        android:layout_width="210dp"
         android:layout_height="55dp"
         android:layout_marginStart="130dp"
         android:layout_marginLeft="130dp"
@@ -79,41 +61,16 @@
         app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815"
-        app:strokeColor="@color/black"
-        app:strokeWidth="2dp" />
-        />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="150dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginLeft="128dp"
-        android:layout_marginTop="26dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginRight="133dp"
-        android:layout_marginBottom="45dp"
-        android:onClick="availableView"
-        android:text="Available Now"
-        android:textColor="@color/black"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.94"
         app:strokeColor="@color/black"
         app:strokeWidth="2dp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="296dp"
-        android:layout_height="143dp"
+        android:layout_width="276dp"
+        android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
