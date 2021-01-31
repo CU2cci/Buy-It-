@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BuyIt">
+        <activity android:name=".availableItems"></activity>
+        <activity android:name=".myList" />
+        <activity android:name=".ItemView" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
